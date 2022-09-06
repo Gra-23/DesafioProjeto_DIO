@@ -1,0 +1,33 @@
+SISTEMA DE CONTROLE E GERENCIAMENTO DE EXECUÇÃO DE ORDENS DE SERVIÇO EM UMA OFICINA MECÂNICA
+
+
+ENTIDADES
+
+Ordem de Serviço
+Cliente
+Veículo
+Mão-de-obra
+Peças
+Mecânicos
+Serviços
+
+
+- Clientes levam veículos à oficina mecânica para serem consertados ou para passarem por revisões  periódicas;
+
+- Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega;
+
+-A partir da OS, calcula o valor do serviço, consultando tabela de referência de mão de obra;
+
+- O valor de cada peça tbm irá compor a OS;
+
+- O cliente autoriza a execução dos serviços;
+
+- A mesma equipe que avalia, executa;
+
+-Mecanicos: código, nome, endereço e especialidade;
+
+- Cada OS possui: nº, data emissão, valor, status e data conclusão do trabalho;
+
+- Uma OS pode ser composta por vários serviços e um mesmo serviço pode estar contido em mais de uma OS;
+
+- Uma OS pode ter vários tipo de peça e uma peça pode estar presente em mais de uma OS;
